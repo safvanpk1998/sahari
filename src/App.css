@@ -1,27 +1,90 @@
 .App {
   text-align: center;
+  background-color: #b3b8d0;
+  min-height: 100vh;
+}
+.home{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.background{
+  position:absolute;right:-50%;top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.back-img{
+  height: 100%
+
+}
+.nav {
+  display: flex;
+  padding: 0 3% ;
+  height: 15%;
+  
+  /* justify-content: center; */
+  align-items: center;
+}
+.nav-img {
+  height: 40px;
+  margin-top: 7px;
+}
+.name{
+  margin-left: 7px;
+  font-size: 40px;
+  font-family: 'Audiowide', sans-serif;
+    color: rgb(84, 25, 25);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
 }
+h4{
+  margin: 2px;}
+p{
+  margin: 5px;
+}
+.bottom{
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  width: 50%;
 
+}
+.address{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.temp{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(84, 25, 25);
+}
+.social{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .App-link {
