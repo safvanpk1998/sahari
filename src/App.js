@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <div className="home">
-        <div className="background">
+        <div className="background" >
           <img src={background} className="back-img" alt="logo" />
         </div>
 
@@ -76,17 +76,15 @@ function App() {
           </div>
           <div className="address">
             <div className="locationdot">
-            <FaLocationDot size={25}/>
+              <FaLocationDot size={25} />
             </div>
-          
-            <div className="street">
-            <h4 className="start">
-              Abu Bakr Al Siddiq St. Ash Sharafiyyah Dist.
-            </h4>
-            <h4 className="start"> Jeddah - Kingdom Of Saudi Arabia</h4>
 
+            <div className="street">
+              <h4 className="start">
+                Abu Bakr Al Siddiq St. Ash Sharafiyyah Dist.
+              </h4>
+              <h4 className="start"> Jeddah - Kingdom Of Saudi Arabia</h4>
             </div>
-           
           </div>
         </div>
       </div>

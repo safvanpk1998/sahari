@@ -2,6 +2,9 @@
   text-align: center;
   background-color: #ffffff;
   min-height: 100vh;
+  background-image: url(../src/assets/back5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .home {
   height: 100vh;
@@ -22,10 +25,10 @@
   display: flex;
   padding: 0 3%;
   height: 15%;
-justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
 }
-.company{
+.company {
   display: flex;
 }
 .nav-img {
@@ -38,7 +41,7 @@ justify-content: space-between;
   font-family: "Audiowide", sans-serif;
   color: rgb(84, 25, 25);
 }
-.moto{
+.moto {
   font-weight: 500;
   font-family: monospace;
   margin-top: -10px;
@@ -72,7 +75,7 @@ p {
 .icon {
   width: 50%;
 }
-.start{
+.start {
   text-align: start;
 }
 .address {
@@ -80,12 +83,12 @@ p {
   display: flex;
   justify-content: center;
 }
-.street{
+.street {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.locationdot{
+.locationdot {
   display: flex;
   align-items: center;
   margin-right: 10px;
